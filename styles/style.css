@@ -211,6 +211,10 @@
 }
 
 @media (width >= 768px) {
+  .page {
+    padding: 20px;
+  }
+
   .header__title {
     justify-self: start;
   }
@@ -220,9 +224,32 @@
     inline-size: 50vw;
   }
 
-
   .album {
-    
+    gap: 20px;
+    /* grid-template-columns: repeat(3, min(230px, 1fr));
+    grid-template-rows: 
+    24px 
+    minmax(192px, 25vw, 260px) 
+    minmax(230px, 30vw, 315px)  
+    minmax(318px, 41vw, 428px); */
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .album__subtitle {
+    grid-column: span 3;
+    margin-block-start: 0;
+  }
+
+  .album__image:first-of-type,
+  .album__image:last-of-type
+  {
+    grid-column: span 2;
+  }
+
+  .album__image:nth-child(3),
+  .album__image:nth-child(4) {
+    grid-row: span 2;
   }
 
 }
