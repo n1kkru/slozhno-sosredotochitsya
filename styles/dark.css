@@ -6,8 +6,10 @@
 :root.theme_dark {
   --title-color: #db00ff;
   --accent-color: #ff0070;
-  --bg-color: #000028;
-  --main-color: #f1b2ce;
+  --background-color: #000028;
+  --text-color: #f1b2ce;
+  --button-hover-color:rgba(255, 0, 112, 0.40);
+  --text-font: 'IBM Plex mono', sans-serif;
 }
 
 .page.theme_dark {
@@ -17,6 +19,8 @@
   */
   --title-color: #db00ff;
   --accent-color: #ff0070;
-  --bg-color: #000028;
-  --main-color: #f1b2ce;
+  --background-color: #000028;
+  --text-color: #f1b2ce;
+  --button-hover-color:rgba(255, 0, 112, 0.40);
+  --text-font: 'IBM Plex mono', sans-serif;
 }
