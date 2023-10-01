@@ -19,7 +19,7 @@
   */
   --title-color: #ffc2e6;
   --accent-color: #ff8dcb;
-  --background-color: #FFF1F7;;
+  --background-color: #FFF1F7;
   --text-color: #353430;
   --button-hover-color: rgba(50, 49, 45, 0.40);
   background-image: url(/images/cover-image-light.png);
@@ -48,10 +48,10 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root  {
+  :root {
     --title-color: #ffc2e6;
     --accent-color: #ff8dcb;
-    --background-color: #FFF1F7;;
+    --background-color: #FFF1F7;
     --text-color: #353430;
     --button-hover-color: rgba(50, 49, 45, 0.40);
   }

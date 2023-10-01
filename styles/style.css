@@ -2,7 +2,7 @@
 /*dark-mobile-first*/
 
 .page {
-  padding: 10px;
+  padding-inline: 10px;
   color: var(--text-color);
   font-family: var(--text-font);
   font-size: 18px;
@@ -21,6 +21,7 @@
   align-content: center;
   grid-template-rows: 1fr 1fr 1fr;
   min-block-size: 100vh;
+  padding-block-start: 10px;
   /* gap: 55px; */
 }
 
@@ -34,6 +35,7 @@
   background-color:  transparent;
   inline-size: 25px;
   block-size: 25px;
+  inset-block-start: 10px;
 }
 
 .decorated-zone::after {
@@ -43,12 +45,10 @@
   align-self: flex-end;
   border-inline-start: 1px solid var(--accent-color);
   border-block-end: 1px solid var(--accent-color);
-  /* inset-inline-start: 10px;
-  inset-block-end: 10px; */
   background-color:  transparent;
   inline-size: 25px;
   block-size: 25px;
-  inset-block-end: 20px
+  inset-block-end: 10px;
 }
 
 .header__icon {
@@ -59,8 +59,9 @@
   position: absolute;
   display: flex;
   justify-self: end;
-  gap: 10px;
+  gap: 4px;
   align-self: flex-start;
+  inset-block-start: 10px;
 }
 
 .header__icon::after {
@@ -78,6 +79,7 @@
 .header__theme-menu {
   text-align: end;
   align-self: center;
+  padding-inline-start: 7px;
 }
 
 .header__theme-menu-list {
@@ -122,7 +124,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--accent-color);
-  padding-block-start: 5px; /*pixel perfect*/
+  padding-block-start: 10px; /*pixel perfect*/
 }
 
 .subtitle {
@@ -133,7 +135,7 @@
 }
 
 .header__subtitle {
-  padding-block-end: 5px;
+  padding-block-end: 30px; /*pixel perfect*/
   align-self: center;
 }
 
@@ -158,7 +160,7 @@
   line-height: 130%;
 }
 
-.content__subtitle {
+.content__article > .content__subtitle {
   margin-block-end: 10px;
 }
 
@@ -240,7 +242,7 @@
     padding-block-end: 80px;
   }
 
-  .content:nth-child(3){
+  .content:nth-child(3) {
     grid-template-rows: repeat(6, auto);
   }
   
@@ -279,8 +281,8 @@
 }
 
 @media (width >= 1024px) {
-  .header__theme-menu {   
-   justify-self: center;
+  .header__theme-menu {
+    justify-self: center;
     align-self: start;
     text-align: center;
   }
