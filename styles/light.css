@@ -7,7 +7,7 @@
 :root.theme-light {
   --title-color: #ffc2e6;
   --accent-color: #ff8dcb;
-  --background-color: #FFF1F7;;
+  --background-color: #FFF1F7;
   --text-color: #353430;
   --button-hover-color: rgba(50, 49, 45, 0.40);
 }
