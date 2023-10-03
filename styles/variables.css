@@ -4,10 +4,15 @@
 */
 
 :root {
+  --background-image: url(../images/cover-image-dark.png);
   --title-color: #db00ff;
   --accent-color: #ff0070;
   --background-color: #000028;
   --text-color: #f1b2ce;
   --button-hover-color:rgba(255, 0, 112, 0.40);
-  --text-font: 'IBM Plex mono', sans-serif;
+  --decor-color: var(--accent-color);
+  --subtitle-text-color: #000028;
+  --thought-text-color: var(--accent-color);
+  --text-font: 'IBM Plex mono', monospace;
+  --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
