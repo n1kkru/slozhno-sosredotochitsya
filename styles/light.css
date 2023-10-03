@@ -17,7 +17,7 @@
   --decor-color: #353430;
   --subtitle-text-color: #353430;
   --thought-text-color: #353430;
-  --background-image: url(../images/cover-image-light.png); 
+  --background-image: url(../images/cover-image-light.png);
 }
 
 .page.theme_light .header__icon {
@@ -41,7 +41,7 @@
     --decor-color: #353430;
     --subtitle-text-color: #353430;
     --thought-text-color: #353430;
-    --background-image: url(../images/cover-image-light.png); 
+    --background-image: url(../images/cover-image-light.png);
   }
 
   .header__icon {
