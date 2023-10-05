@@ -36,6 +36,8 @@
   inline-size: 25px;
   block-size: 25px;
   inset-block-start: 10px;
+  inset-inline-end: 0;
+
 }
 
 .decorated-zone::after {
@@ -49,6 +51,7 @@
   inline-size: 25px;
   block-size: 25px;
   inset-block-end: 10px;
+  inset-inline-start: 0;
 }
 
 .header__icon {
@@ -62,6 +65,7 @@
   font-size: 18px;
   line-height: 138.889%;
   inset-block-start: 10px;
+  inset-inline-end: 0;
 }
 
 .header__icon::after {
@@ -224,6 +228,7 @@
 .footer__title {
   color: var(--title-color);
   font-size: var(--font-size-title);
+  line-height: 82.5%;
   text-align: center;
   text-shadow: 2px 2px 0px var(--accent-color);
 }
@@ -289,7 +294,6 @@
   }
 
   .content:nth-child(odd) .content__article {
-    grid-template-rows: repeat(auto-fit, auto);
     grid-column-start: 2;
   }
 

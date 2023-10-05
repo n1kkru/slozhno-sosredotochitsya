@@ -21,6 +21,10 @@
   --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
+.page.theme_dark .header__icon {
+  display: flex;
+}
+
 @media (width >= 1024px) {
   .page.theme_dark .header__title {
     --accent-color: #ff0070;
